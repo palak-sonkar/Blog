@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>home</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href="home.css" rel="stylesheet"/>
+    </head>
+    <body>
+   
+      
+           <ul>
+               <li class="brand"><a href="index.html">Blogista</a></li>
+               <li><a href="home.html" class="active">home</a></li>
+               <li><a href="contact.html">contact</a></li>
+               <li><a href="profile_page.html">profile</a></li>
+               <li><form action="/">
+                <input type="text" placeholder="search.."/>
+                <button type="submit"><i class="fa fa-search"></i></button></li>
+               </form>
+                  
+           </ul>
+ 
+           <Button class="createBlog" ><a href="post.html">Create your Blog</a></Button>
+
+           <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 4</div>
+              <img src="image/food.jpg" >
+              <div class="text">Food Blog</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 4</div>
+              <img src="image/lifestyle.jpg" >
+              <div class="text">Lifestyle blog</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 4</div>
+              <img src="image/photo.jpg" >
+              <div class="text">Photography Blog</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="image/travel.jpg" >
+                <div class="text">Travel Blog</div>
+              </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+              <span class="dot" onclick="currentSlide(4)"></span> 
+            </div>
+            
+            <div class="categories">
+               <div class="headings">
+                  <button onclick="myFunction(0)">Travel</button>
+                  <button onclick="myFunction(1)">LifeStyle</button>
+                  <button onclick="myFunction(2)">Food</button>
+                  <button onclick="myFunction(3)">Photography</button>
+                  
+               </div>
+               <div class="container" id="c1">
+                    <h1>Travel blogs</h1>
+                   <div class="card">
+                     <div class="header">
+                      <img class="avatar" src="image/download.jpg"/>
+                      <p>nancy</p>
+                     </div>
+                     
+                     <div class="imgContainer">
+                      <img src="image/travel1.png"/>
+                     </div>
+                     <div class="content">
+                       <i class="fa fa-heart" style="color:red ; margin-top: 5px;"></i>
+                       <i class="fa fa-comment" style="color:grey; margin-left:5px;margin-top: 5px;"></i>
+                      <p>
+                        One of the things I love most about California is that the roads themselves can be just as exciting as the destinations. Of course, there are famous roads like Pacific Coast Highway in the state, but we also have a lot of great drives that are not as well known to travel on. Here is a list of my favorite California drives, along with the posts that I have written about places that can be found on that drive.
+                      </p>
+                     </div>
+
+                   </div>
+                   <div class="card">
+                    <div class="header">
+                     <img class="avatar" src="image/download.jpg"/>
+                     <p>nancy</p>
+                    </div>
+                    
+                    <div class="imgContainer">
+                     <img src="image/travel.jpg"/>
+                    </div>
+                    <div class="content">
+                      <i class="fa fa-heart" style="color:red ; margin-top: 5px;"></i>
+                      <i class="fa fa-comment" style="color:grey; margin-left:5px;margin-top: 5px;"></i>
+                     <p>
+                       One of the things I love most about California is that the roads themselves can be just as exciting as the destinations. Of course, there are famous roads like Pacific Coast Highway in the state, but we also have a lot of great drives that are not as well known to travel on. Here is a list of my favorite California drives, along with the posts that I have written about places that can be found on that drive.
+                     </p>
+                    </div>
+
+                  </div>
+                   <div class="card">
+                    <div class="header">
+                     <img class="avatar" src="image/download.jpg"/>
+                     <p>nancy</p>
+                    </div>
+                    
+                    <div class="imgContainer">
+                     <img src="image/travel1.png"/>
+                    </div>
+                    <div class="content">
+                      <i class="fa fa-heart" style="color:red ; margin-top: 5px;"></i>
+                      <i class="fa fa-comment" style="color:grey; margin-left:5px;margin-top: 5px;"></i>
+                     <p>
+                       One of the things I love most about California is that the roads themselves can be just as exciting as the destinations. Of course, there are famous roads like Pacific Coast Highway in the state, but we also have a lot of great drives that are not as well known to travel on. Here is a list of my favorite California drives, along with the posts that I have written about places that can be found on that drive.
+                     </p>
+                    </div>
+
+                  </div>
+                  <div class="pagination">
+                    <a href="#">&laquo;</a>
+                    <a href="#"class="active">1</a>
+                    <a href="#" >2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">&raquo;</a>
+                  </div>
+                  </div>
+                  <div class="container" id="c2" >
+                    <h1>LifeStyle blogs</h1>
+                   <div class="card">
+                     <div class="header">
+                      <img class="avatar" src="image/download.jpg"/>
+                      <p>nancy</p>
+                     </div>
+                     
+                     <div class="imgContainer">
+                      <img src="image/lifestyle.jpg"/>
+                     </div>
+                     <div class="content">
+                       <i class="fa fa-heart" style="color:red ; margin-top: 5px;"></i>
+                       <i class="fa fa-comment" style="color:grey; margin-left:5px;margin-top: 5px;"></i>
+                      <p>
+                        One of the things I love most about California is that the roads themselves can be just as exciting as the destinations. Of course, there are famous roads like Pacific Coast Highway in the state, but we also have a lot of great drives that are not as well known to travel on. Here is a list of my favorite California drives, along with the posts that I have written about places that can be found on that drive.
+                      </p>
+                     </div>
+
+                   </div>
+                   <div class="card">
+                    <div class="header">
+                     <img class="avatar" src="image/download.jpg"/>
+                     <p>nancy</p>
+                    </div>
+                    
+                    <div class="imgContainer">
+                     <img src="image/lifestyle1.jpg"/>
+                    </div>
+                    <div class="content">
+                      <i class="fa fa-heart" style="color:red ; margin-top: 5px;"></i>
+                      <i class="fa fa-comment" style="color:grey; margin-left:5px;margin-top: 5px;"></i>
+                     <p>
+                       One of the things I love most about California is that the roads themselves can be just as exciting as the destinations. Of course, there are famous roads like Pacific Coast Highway in the state, but we also have a lot of great drives that are not as well known to travel on. Here is a list of my favorite California drives, along with the posts that I have written about places that can be found on that drive.
+                     </p>
+                    </div>
+
+                  </div>
+                   <div class="card">
+                    <div class="header">
+                     <img class="avatar" src="image/download.jpg"/>
+                     <p>nancy</p>
+                    </div>
+                    
+                    <div class="imgContainer">
+                     <img src="image/lifestyle.jpg"/>
+                    </div>
+                    <div class="content">
+                      <i class="fa fa-heart" style="color:red ; margin-top: 5px;"></i>
+                      <i class="fa fa-comment" style="color:grey; margin-left:5px;margin-top: 5px;"></i>
+                     <p>
+                       One of the things I love most about California is that the roads themselves can be just as exciting as the destinations. Of course, there are famous roads like Pacific Coast Highway in the state, but we also have a lot of great drives that are not as well known to travel on. Here is a list of my favorite California drives, along with the posts that I have written about places that can be found on that drive.
+                     </p>
+                    </div>
+
+                  </div>
+                  <div class="pagination">
+                    <a href="#">&laquo;</a>
+                    <a href="#" class="active">1</a>
+                    <a href="#" >2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">&raquo;</a>
+                  </div>
+                  </div>
+                  <div class="container" id="c3" >
+                    <h1>Food blogs</h1>
+                   <div class="card">
+                     <div class="header">
+                      <img class="avatar" src="image/download.jpg"/>
+                      <p>nancy</p>
+                     </div>
+                     
+                     <div class="imgContainer">
+                      <img src="image/food.jpg"/>
+                     </div>
+                     <div class="content">
+                       <i class="fa fa-heart" style="color:red ; margin-top: 5px;"></i>
+                       <i class="fa fa-comment" style="color:grey; margin-left:5px;margin-top: 5px;"></i>
+                      <p>
+                        One of the things I love most about California is that the roads themselves can be just as exciting as the destinations. Of course, there are famous roads like Pacific Coast Highway in the state, but we also have a lot of great drives that are not as well known to travel on. Here is a list of my favorite California drives, along with the posts that I have written about places that can be found on that drive.
+                      </p>
+                     </div>
+
+                   </div>
+                   <div class="card">
+                    <div class="header">
+                     <img class="avatar" src="image/download.jpg"/>
+                     <p>nancy</p>
+                    </div>
+                    
+                    <div class="imgContainer">
+                     <img src="image/food.jpg"/>
+                    </div>
+                    <div class="content">
+                      <i class="fa fa-heart" style="color:red ; margin-top: 5px;"></i>
+                      <i class="fa fa-comment" style="color:grey; margin-left:5px;margin-top: 5px;"></i>
+                     <p>
+                       One of the things I love most about California is that the roads themselves can be just as exciting as the destinations. Of course, there are famous roads like Pacific Coast Highway in the state, but we also have a lot of great drives that are not as well known to travel on. Here is a list of my favorite California drives, along with the posts that I have written about places that can be found on that drive.
+                     </p>
+                    </div>
+
+                  </div>
+                   <div class="card">
+                    <div class="header">
+                     <img class="avatar" src="image/download.jpg"/>
+                     <p>nancy</p>
+                    </div>
+                    
+                    <div class="imgContainer">
+                     <img src="image/food.jpg"/>
+                    </div>
+                    <div class="content">
+                      <i class="fa fa-heart" style="color:red ; margin-top: 5px;"></i>
+                      <i class="fa fa-comment" style="color:grey; margin-left:5px;margin-top: 5px;"></i>
+                     <p>
+                       One of the things I love most about California is that the roads themselves can be just as exciting as the destinations. Of course, there are famous roads like Pacific Coast Highway in the state, but we also have a lot of great drives that are not as well known to travel on. Here is a list of my favorite California drives, along with the posts that I have written about places that can be found on that drive.
+                     </p>
+                    </div>
+
+                  </div>
+                  <div class="pagination">
+                    <a href="#">&laquo;</a>
+                    <a href="#" class="active">1</a>
+                    <a href="#" >2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">&raquo;</a>
+                  </div>
+                  </div>
+                  <div class="container" id="c4" >
+                    <h1>Photography blogs</h1>
+                   <div class="card">
+                     <div class="header">
+                      <img class="avatar" src="image/download.jpg"/>
+                      <p>nancy</p>
+                     </div>
+                     
+                     <div class="imgContainer">
+                      <img src="image/photo.jpg"/>
+                     </div>
+                     <div class="content">
+                       <i class="fa fa-heart" style="color:red ; margin-top: 5px;"></i>
+                       <i class="fa fa-comment" style="color:grey; margin-left:5px;margin-top: 5px;"></i>
+                      <p>
+                        One of the things I love most about California is that the roads themselves can be just as exciting as the destinations. Of course, there are famous roads like Pacific Coast Highway in the state, but we also have a lot of great drives that are not as well known to travel on. Here is a list of my favorite California drives, along with the posts that I have written about places that can be found on that drive.
+                      </p>
+                     </div>
+
+                   </div>
+                   <div class="card">
+                    <div class="header">
+                     <img class="avatar" src="image/download.jpg"/>
+                     <p>nancy</p>
+                    </div>
+                    
+                    <div class="imgContainer">
+                     <img src="image/photo1.jpg"/>
+                    </div>
+                    <div class="content">
+                      <i class="fa fa-heart" style="color:red ; margin-top: 5px;"></i>
+                      <i class="fa fa-comment" style="color:grey; margin-left:5px;margin-top: 5px;"></i>
+                     <p>
+                       One of the things I love most about California is that the roads themselves can be just as exciting as the destinations. Of course, there are famous roads like Pacific Coast Highway in the state, but we also have a lot of great drives that are not as well known to travel on. Here is a list of my favorite California drives, along with the posts that I have written about places that can be found on that drive.
+                     </p>
+                    </div>
+
+                  </div>
+                   <div class="card">
+                    <div class="header">
+                     <img class="avatar" src="image/download.jpg"/>
+                     <p>nancy</p>
+                    </div>
+                    
+                    <div class="imgContainer">
+                     <img src="image/photo.jpg"/>
+                    </div>
+                    <div class="content">
+                      <i class="fa fa-heart" style="color:red ; margin-top: 5px;"></i>
+                      <i class="fa fa-comment" style="color:grey; margin-left:5px;margin-top: 5px;"></i>
+                     <p>
+                       One of the things I love most about California is that the roads themselves can be just as exciting as the destinations. Of course, there are famous roads like Pacific Coast Highway in the state, but we also have a lot of great drives that are not as well known to travel on. Here is a list of my favorite California drives, along with the posts that I have written about places that can be found on that drive.
+                     </p>
+                    </div>
+
+                  </div>
+                  <div class="pagination">
+                    <a href="#">&laquo;</a>
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">&raquo;</a>
+                  </div>
+                  
+               </div>
+            </div>
+          
+            <script src="home.js"></script>
+            
+    </body>
+</html>

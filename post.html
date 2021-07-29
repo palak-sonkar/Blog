@@ -1,0 +1,82 @@
+
+<html5>
+<title>
+    </title>
+<head>
+    <link rel="stylesheet" href="post.css">
+</head>
+    <body>
+        <div class="contact-form">
+           
+            <form id="formmm">
+                <div class="txtb">
+
+                    <label>Title:</label> <input type="text" id="title" >
+                </div>
+                <div class="txtb" >
+                    <div class="radiogroup" id="rrr">
+                        <div class="wrapper">
+                            <input class="state" type="radio" name="app" id="a" value="Travel">
+                            <label class="label" for="a">
+                                <div class="indicator"></div>
+                                <span class="text">TRAVEL</span>
+                            </label>
+                        </div>
+                        <div class="wrapper">
+                            <input class="state" type="radio" name="app" id="b" value="Lifestyle">
+                            <label class="label" for="b">
+                                <div class="indicator"></div>
+                                <span class="text"> LIFESTYLE</span>
+                            </label>
+                        </div>
+                        <div class="wrapper">
+                            <input class="state" type="radio" name="app" id="c" value="Food">
+                            <label class="label" for="c">
+                                <div class="indicator"></div>
+                                <span class="text"> FOOD</span>
+                            </label>
+                        </div>
+                        <div class="wrapper">
+                            <input class="state" type="radio" name="app" id="d" value="Photography">
+                            <label class="label" for="d">
+                                <div class="indicator"></div>
+                                <span class="text"> PHOTOGRAPHY</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="txtb">
+                    <label style="padding:9px">Content:</label> <textarea  id="desc" rows="14" cols="60" style="        background-color: antiquewhite;
+        padding-bottom: 20px ;background-color: white"></textarea>
+                    <input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none; padding: 0px"></p>
+                </div>
+                <div>
+                    <p><label for="file" style="cursor: pointer;">Upload Image</label></p>
+                </div>
+                    <button class="btn">Publish</button>
+         <img src="image/image.jpg" style="padding: 20px ; border-radius: 20% ;width:100% ;height:30%";>
+            </form>
+                </div>
+        <div class="blog">
+            <p id="title1"></p>
+            <p id="rrr1">  </p>
+            <p id="description">  </p>
+            <p><img id="output" width="600" height=950 style="border-radius:10%;border-color:antiquewhite;"/></p>
+        </div>
+        </body>
+            <script>
+            var loadFile = function (event) {
+                var image = document.getElementById('output');
+                image.src = URL.createObjectURL(event.target.files[0]);
+            };
+
+            const weatherForm = document.querySelector('form')
+            var search = document.querySelector('#input')
+                var description = document.querySelector('#description')
+            const title = document.querySelector('#title1')
+                weatherForm.addEventListener('submit', (e) => {
+                e.preventDefault()
+
+                })
+        </script>
+</html5>
